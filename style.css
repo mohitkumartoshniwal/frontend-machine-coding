@@ -10,14 +10,14 @@
 body {
   height: 100vh;
   width: 100%;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 1rem;
 }
 
 h1 {
-  position: fixed;
-  top: 0;
   padding: 1rem;
   width: 100%;
   background-color: black;
@@ -26,8 +26,10 @@ h1 {
 }
 
 ul {
-  margin-top: 6rem;
   list-style-type: none;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 1rem;
 }
 
 li::before {
