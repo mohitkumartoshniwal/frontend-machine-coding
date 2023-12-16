@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background: rgb(244 67 54 / 80%);
+}
+
+h1 {
+  position: fixed;
+  top: 0;
+  padding: 1rem;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+ul {
+  margin-top: 6rem;
+  list-style-type: none;
+}
+
+li::before {
+  content: "👉 ";
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: black;
+}
