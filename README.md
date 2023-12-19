@@ -10,5 +10,6 @@
 | Bishop on Chessboard  | [Video](https://youtu.be/aY2ra2BDBd8) | [Solution](./bishop-chessboard) |
 | Tabs Component        | [Video](https://youtu.be/Q-oCO7so_lc) | [Solution](./tabs)              |
 | Tic Tac Toe           | [Video](https://youtu.be/5u-ENEknLXs) | [Solution](./tic-tac-toe)       |
+| Todo List             | [Video]()                             | [Solution](./todo-list/)        |
 
 You can check out the above solutions live [here](https://frontend-machine-coding.vercel.app/)
